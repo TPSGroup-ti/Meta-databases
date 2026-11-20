@@ -1,0 +1,21 @@
+{
+  "name": "meta-flow-platform",
+  "version": "7.1.0",
+  "description": "Meta Flow Production Platform - 3-Tier Video Production & Admin AI Feature Factory",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

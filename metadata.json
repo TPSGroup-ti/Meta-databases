@@ -1,0 +1,5 @@
+{
+  "name": "Meta Flow Production Platform",
+  "description": "แพลตฟอร์มสร้างและจัดการวิดีโออัตโนมัติแบบ 3 ส่วน (User App, Web Editor, Admin & AI Feature Factory)",
+  "requestFramePermissions": []
+}

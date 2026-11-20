@@ -1,11 +1,13 @@
-<div align="center">
+# ⚡ Meta Flow Production Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+แพลตฟอร์มสร้างและจัดการวิดีโออัตโนมัติแบบ 3 ส่วน (**User App**, **Web Editor**, **Admin & AI Feature Factory**) ขับเคลื่อนด้วย FastAPI และ SQLite
 
-  <h1>Built with AI Studio</h2>
+## โครงสร้างระบบ
+- **1. User App:** สร้างวิดีโอจาก Prompt แบบ Background Job, เติมเครดิตแพ็กเกจ และดาวน์โหลดไฟล์ MP4
+- **2. Web Editor:** พื้นที่เลือกไฟล์วิดีโอหลายไฟล์และเตรียมจัดเรียงรอยต่อ Overlap 0.5s
+- **3. Admin & AI Feature Factory:** ดูภาพรวมผู้ใช้ รายได้ รายการธุรกรรม และสร้าง/Deploy ร่างฟีเจอร์ใหม่
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## การรันในเครื่อง
+```bash
+pip install -r requirements.txt
+python meta_flow_production.py

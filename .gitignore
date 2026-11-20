@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.db
+*.sqlite
+*.sqlite3
+output/*.mp4
+output/*.mp3
+output/*.jpg
+.env
+node_modules/
+dist/
